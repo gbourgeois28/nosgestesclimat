@@ -60,20 +60,24 @@ const slides = [
 			<h1>Mon empreinte climat {emoji('😶‍🌫️')} ?</h1>
 			<p>Pas de panique, on vous explique ce que c'est.</p>
 			<p>
-				La planète <strong>se réchauffe dangereusement</strong>, au fur et à
-				mesure des gaz à effet de serre que l'on émet.
+				Le climat de notre planète </strong> se réchauffe dangereusement </strong> ! C'est ce
+			  qu'on appelle le réchauffement climatique. Et il se réchauffe vite du fait des
+			  très nombreuses émissions de gaz à effet de serre émit par les activités humaines
+			  (industries, déplacements, élevages, etc.).
 			</p>
 			<GreenhouseEffect css="width: 14rem" />
 			<p>
-				Ce test vous donne en {emoji('⏱️')} 10 minutes chrono{' '}
-				<strong>une mesure de votre part </strong> dans ce réchauffement.
+				Ce test vous donne en moins de {emoji('⏱️')} 10 minutes {' '}
+				<strong> votre contribution </strong> au réchauffement climatique. Et oui on contribue tous un peu...
 			</p>
 		</>
 	),
 	() => (
 		<>
-			<h1>Ça se mesure comment ?</h1>
-			<p>Avec une unité au nom barbare : l'équivalent CO₂.</p>
+			<h1> Et vous mesurez ça comment ?</h1>
+			<p>
+				En répondant à des questions sur vos habitudes quotidiennes on estime votre empreinte carbone 
+				exprimée en équivalent CO₂. C’est un peu barbare comme unité mais en réalité c’est facile à comprendre.
 			<p>
 				Le dioxyde de carbone (CO₂{' '}
 				<img
@@ -85,9 +89,11 @@ const slides = [
 						height: 1.7rem;
 					`}
 				/>
-				), vous connaissez : on l'expire toute la journée... mais c'est surtout
-				ce que les machines qui font notre confort moderne rejettent, en
-				quantités massives.
+				), vous connaissez forcément : c’est le gaz que l’on rejette à chaque expiration. alors non, la respiration 
+				des êtres humains ne participe pas au changement climatique. Ce qui y participe, c’est le CO₂ 
+				(et les autres gaz à effet de serre) émis en quantités massives par les machines qui nous transportent, nous fournissent de 
+				l’électricité, font notre confort mais aussi ce que nous achetons et mangeons.
+				Bref tout ce qui fait notre vie moderne !
 			</p>
 			<div
 				css={`
@@ -141,22 +147,25 @@ const slides = [
 			<p>
 				À tel point qu'on le compte en milliers de kilos par an et par personne,
 				donc en <strong>tonnes</strong> de CO₂e !
+				Revenons au CO2 équivalent. Que signifie ce terme équivalent (<em>e</em>). Il faut savoir 
+				qu’il n’existe pas que le CO2 comme gaz à effet de serre
 			</p>
 			<blockquote>
 				<p>
-					{emoji('💡')}&nbsp; Et d'où vient ce petit <em>e</em> ? D'autres gaz,
-					surtout le méthane&nbsp;
+					{emoji('💡')}&nbsp; Vous avez d’ailleurs peut-être déjà entendu parler 
+					du méthane (dans le cadre des élevages)&nbsp;
 					<img
 						src="/images/methane.svg"
 						css="width: 1.8rem; vertical-align: middle; object-fit: cover; height: 1.7rem"
 					/>{' '}
-					et le protoxyde d'azote{' '}
+					ou du protoxyde d’azote (dans le cadre de l’agriculture).{' '}
 					<img
 						src="/images/n2o.svg"
 						css="width: 3rem; vertical-align: middle; object-fit: cover; height: 1.7rem"
 					/>
-					, réchauffent aussi la planète : on les convertit en CO₂ pour
-					simplifier la mesure.{' '}
+					Tous les gaz à effets de serre ne participent pas de la même manière au réchauffement. Le méthane par exemple 
+					a un pouvoir réchauffant 25 fois plus fort que le CO2. C’est pourquoi tous les gaz à effet de serre 
+					sont convertis en C02 afin de simplifier la mesure.{' '}
 				</p>
 			</blockquote>
 		</>
@@ -165,13 +174,15 @@ const slides = [
 		<>
 			<h1>Et concrètement ?</h1>
 			<p>
-				Chaque année, un français émet en moyenne{' '}
-				<strong> à peu près 10 tonnes</strong> de CO₂e.
+				Pour faire simple, chaque année, un français émet en moyenne <strong> 10 tonnes de CO₂e<strong>. 
+				Le but de Nos Gestes Climat c’est de personnaliser ce résultat en fonction des réponses que vous apportez.
 			</p>
 			<AbacusFrance css="width:10rem; height: 100%" />
 			<p>
-				C'est votre point de départ dans ce test : chaque réponse que vous
-				donnerez va personnaliser ce résultat dans la barre{' '}
+				10 tonnes, c’est bien ou c’est mal ?
+				On ne va pas se mentir, 10 tonnes c’est beaucoup et c’est même trop ! Si l’on veut respecter l’Accord de Paris
+				(qui est de limiter le réchauffement à 2°) il faut viser une empreinte de 2 tonnes {emoji('😵')}
+				et vous allez voir c’est pas facile{' '}
 				<span css="@media(min-width: 800px){display: none}">
 					ci-dessous {emoji('⤵️')}{' '}
 				</span>
@@ -187,11 +198,13 @@ const slides = [
 	),
 	() => (
 		<>
-			<h1>Et l'objectif ?</h1>
-			<p>Nous devons diminuer notre empreinte climat au plus vite.</p>
-			<p>
-				En France, ça consiste à passer de ~10 tonnes à{' '}
-				<strong>moins de 2 tonnes</strong> par an.
+			<h1>2 tonnes ! Mais c’est impossible !</h1>
+			<p> 
+				C’est en effet extrêmement difficile, c’est certain ! C’est d’autant plus difficile si l’on essaie
+				d’attendre 2 tonnes « seul ». Atteindre cet objectif passera bien évidemment par des changements individuels 
+				mais surtout par des transformations collectives qui rendront plus facile l’objectif <strong>2 tonnes<strong>. 
+				On peut penser à des produits/services peu émetteurs et réparables, au développement d’alternative efficace
+				au tout voiture et à tant d’autres choses encore !
 			</p>
 
 			<ObjectifClimat
@@ -242,28 +255,14 @@ const slides = [
 		</>
 	),
 	() => (
-		<>
-			<h1>D'où vient notre empreinte ?</h1>
-			<p>
-				Faire des km en voiture, manger un steak, chauffer sa maison, se faire
-				soigner, acheter une nouvelle chaise ou télévision...
-			</p>
-			<div css="margin:2rem">
-				<Chart />
-			</div>
-			<p>
-				L'empreinte de notre consommation individuelle, c'est la somme de toutes
-				ces activités qui font notre vie moderne.{' '}
-			</p>
-		</>
 	),
 	() => (
 		<>
 			<h1>Alors, c'est parti ?</h1>
 			<p>Quelques astuces pour vous aider à compléter le test.</p>
 			<blockquote>
-				{emoji('👤')}&nbsp; Répondez aux questions en votre nom, pas au nom de
-				votre foyer : c'est un test individuel.
+				{emoji('👤')}&nbsp; Répondez autant que possible aux questions en votre nom. Même si nos habitudes quotidiennes
+				sont souvent influencés par les autres, ceci est un test individuel
 			</blockquote>
 			<blockquote>
 				{emoji('💼')}&nbsp; Répondez pour votre vie perso, pas pour votre boulot
